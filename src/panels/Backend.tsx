@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import useRobot from "@/hooks/useRobot";
 
 const BackendPanel: FunctionComponent = () => {
-  const { setBackendUrl, connect, requestUpdatePosition } = useRobot();
+  const { setBackendUrl, connect } = useRobot();
   return (
     <PanelCard title="Backend">
       <div className="flex flex-col gap-4">
